@@ -1,6 +1,6 @@
 
 
-# Public route table
+# Public route table 1
 resource "aws_route_table" "Public-Rt" {
   vpc_id = aws_vpc.vpc1.id
   route {
@@ -8,7 +8,7 @@ resource "aws_route_table" "Public-Rt" {
     gateway_id = aws_internet_gateway.igw1.id
   }
 }
-# Private route table
+# Private route table 1
 resource "aws_route_table" "Private-Rt" {
   vpc_id = aws_vpc.vpc1.id
   route {

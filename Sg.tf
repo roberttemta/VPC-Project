@@ -1,5 +1,5 @@
 
-
+# Creating the security group
 
 resource "aws_security_group" "sg1" {
 

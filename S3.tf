@@ -1,4 +1,6 @@
 
+# Creating and S3
+
 resource "aws_s3_bucket" "bucket1" {
   bucket = "utc-app2-bucket"
 

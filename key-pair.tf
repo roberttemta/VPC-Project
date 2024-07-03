@@ -5,7 +5,7 @@ resource "tls_private_key" "ec2_key" {
   rsa_bits  = 2048
 }
 
-# Create the Key Pair
+# Create the Key Pair in aws
 resource "aws_key_pair" "aws_key" {
   key_name   = "utc-app2_key"
   public_key = tls_private_key.ec2_key.public_key_openssh

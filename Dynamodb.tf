@@ -6,6 +6,7 @@ resource "aws_dynamodb_table" "table1" {
   write_capacity = 20
   hash_key       = "LockID"
   //range_key      = "GameTitle"
+  //range_key      = "GameTitle"
 
   attribute {
     name = "LockID"

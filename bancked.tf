@@ -7,6 +7,7 @@ terraform {
     encrypt        = true
     dynamodb_table = "utc-app1-locktable"
     //dynamodb_table = "utc-app2-lock-table"
+    //dynamodb_table = "utc-app2-lock-table"
 
 
 

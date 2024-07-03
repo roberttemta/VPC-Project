@@ -1,4 +1,5 @@
 
+#creating the instance
 resource "aws_instance" "server1" {
   ami           = "ami-0195204d5dce06d99"
   instance_type = "t2.micro"
