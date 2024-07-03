@@ -40,6 +40,7 @@ resource "aws_dynamodb_table" "table1" {
 */
   tags = {
     Name        = "utc-app2-lock-table"
-    Environment = "Dev"
+    Environment = var.ENVIRONMENT
+    //Environment = "dev"
   }
 }

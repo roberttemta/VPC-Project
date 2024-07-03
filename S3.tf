@@ -6,7 +6,8 @@ resource "aws_s3_bucket" "bucket1" {
 
   tags = {
     Name        = "tc-app2-bucket"
-    Environment = "Dev"
+    //Environment = "Dev"
+    Environment = var.ENVIRONMENT
   }
 }
 
